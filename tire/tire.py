@@ -1,7 +1,7 @@
 from abc import abstractmethod
 
 
-class Tire(ABC):
+class Tire:
     @abstractmethod
     def needs_service(self):
         pass
